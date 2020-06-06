@@ -2,7 +2,7 @@
 
 Projeto feito no intuito de aprendizagem/estudo.
 
-Uso de Angular e Angular Material, com backand fazendo requisição na api local. (JsonServer)
+Uso de Angular e Angular Material, com backend fazendo requisição na api local. (JsonServer)
 
 # Telas
 
