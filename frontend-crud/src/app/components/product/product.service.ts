@@ -35,8 +35,8 @@ export class ProductService {
     );
   }
 
-  errorHandler(e: any): Observable<any> {
-    this.showMessage('Ocorreu um erro na requisição!', true);
+  errorHandler(msg: string): Observable<any> {
+    this.showMessage(msg, true);
     return EMPTY
   }
 

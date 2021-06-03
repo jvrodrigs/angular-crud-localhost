@@ -29,8 +29,6 @@ export class ProductCreateComponent implements OnInit {
         this.ProductService.showMessage('Operação executada com sucesso!');
         this.Router.navigate(['/products'])
       });
-
-
   }
 
   cancelProduct(): void {

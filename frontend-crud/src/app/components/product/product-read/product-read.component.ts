@@ -18,7 +18,9 @@ export class ProductReadComponent implements OnInit {
   ngOnInit():void {
     this.productServRead.readApi().subscribe( products => {
       this.products = products;      
-    });
+    }, (error) => {[
+      this.productServRead.errorHandler('Ocorreu um erro na listagem dos produtos!')
+    ]});
     
   }
 
